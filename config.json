@@ -1,0 +1,10 @@
+{
+  "paths": ["./sample_data"],
+  "exclude_globs": ["**/*.tmp"],
+  "follow_symlinks": false,
+  "hash_algorithm": "sha256",
+  "baseline_file": "./baseline.json",
+  "log_file": "./logs/fim.log",
+  "scan_interval_seconds": 60,
+  "event_debounce_ms": 250
+}
